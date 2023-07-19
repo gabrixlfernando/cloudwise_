@@ -30,12 +30,12 @@
       <!-- Missão, visão e valores -->
       <section data-aos="zoom-in-up" class="como" id="como-mvv">
         <div class="comotrab site">
-        <div>
-                <div>
-                    <img src="img/missao.png" id="img-mvv">
+        <div class="imgcomo">
+                <div id="img-mvv">
+                    <img  data-aos="flip-down" src="img/missao.png" id="img-mvv">
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-down" class="txtcomo">
                 <ul>
                     <li>
                         <input type="radio" name="btn-mvv" id="btn-missao">
@@ -53,18 +53,18 @@
                 <!-- missão -->
                 <ul id="missao">
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Missão 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Impulsionar o Sucesso dos Clientes</h3>
+                        <p>Trabalhamos em estreita colaboração com cada cliente para entender suas necessidades, objetivos e desafios específicos, desenvolvendo soluções personalizadas que atendam às suas demandas e alavanquem seu crescimento.  </p>
                         </i>
                     </li>
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Missão 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque, inventore atque unde, qui aliquam vero incidunt illum  </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Impacto Positivo </h3>
+                        <p>Buscamos criar um impacto positivo nas empresas e na comunidade em que atuamos. Ao fornecer soluções de qualidade e impulsionar o crescimento de nossos clientes, contribuímos para o fortalecimento dos negócios e para o desenvolvimento econômico. </p>
                         </i>
                     </li>
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Missão 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis, accusantium delectus ab numquam quos quo, minus dolores exercitationem  </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Comunicação e Tecnologia </h3>
+                        <p>Acreditamos que a comunicação eficaz e o uso adequado da tecnologia são fundamentais para o sucesso dos negócios no mundo digital em constante evolução.  </p>
                         </i>
                     </li>
                 </ul>
@@ -72,18 +72,18 @@
                 <!-- visão -->
                 <ul id="visao">
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Visão 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Parceria de Longo Prazo </h3>
+                        <p>Nossa visão é estabelecer parcerias sólidas e duradouras com nossos clientes, sendo reconhecidos como um parceiro estratégico e confiável em suas jornadas de negócios. </p>
                         </i>
                     </li>
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Visão 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Excelência em Serviços </h3>
+                        <p>Buscamos ser reconhecidos pela qualidade de nossos serviços, oferecendo soluções de comunicação e tecnologia que atendam e superem as expectativas de nossos clientes. </p>
                         </i>
                     </li>
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Visão 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Crescimento Global </h3>
+                        <p>Expandir nossa presença e atuação globalmente, alcançando novos mercados e fortalecendo nossa marca em diferentes regiões do mundo. </p>
                         </i>
                     </li>
                 </ul>
@@ -91,18 +91,18 @@
                 <!-- valores -->
                 <ul id="valores">
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Valores 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quoo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Ética </h3>
+                        <p>Nós trabalhamos com integridade, respeito e responsabilidade. Nós nos esforçamos para fazer a coisa certa para nossos clientes, colaboradores e comunidade. </p>
                         </i>
                     </li>
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Valores 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Qualidade e Dedicação </h3>
+                        <p>Comprometemo-nos com a qualidade em todas as etapas do nosso trabalho, com dedicação e atenção aos detalhes para fornecer resultados excepcionais. </p>
                         </i>
                     </li>
                     <li>
-                        <h3><i class="fa-regular fa-circle-check"></i> Valores 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci quis, maxime assumenda dicta harum aut tempore enim saepe quo </p>
+                        <h3><i class="fa-regular fa-circle-check"></i> Trabalho em equipe </h3>
+                        <p>Nós trabalhamos em estreita colaboração com nossos clientes e entre nós, para garantir que nossos clientes recebam as soluções completas e integradas que precisam para ter sucesso em seus negócios. </p>
                         </i>
                     </li>
                 </ul>
