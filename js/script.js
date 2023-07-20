@@ -77,3 +77,50 @@ var imgMvv = document.querySelector("#img-mvv");
   });
 });
 
+// enviar para whatsapp
+
+function formWhats() {
+
+  var form = document.getElementById('formContato');
+
+  var nome = "*Nome: *" + document.getElementById("nome").value;
+  var email = "*E-mail: *" + document.getElementById("email").value;
+  var tel = document.getElementById("tel").value;
+  var mens = "*Mensagem: *" + document.getElementById("mens").value;
+
+  var agencia = "*Agêngia Tipi*";
+  var assunto = "Mensagem do site!";
+
+  var numFone = "5511944612358";
+  var quebraDeLinha = "%0A";
+
+  if (tel == "") {
+    alert("O campo do celular é obrigatório")
+    return;
+  } else {
+    var tel = "*Fone: *" + document.getElementById("tel").value;
+  }
+
+  window.open(
+    "https://api.whatsapp.com/send?phone=" +
+      numFone +
+      "&text=" +
+      assunto +
+      "-" +
+      agencia +
+      quebraDeLinha +
+      quebraDeLinha +
+      nome +
+      quebraDeLinha +
+      email +
+      quebraDeLinha +
+      tel +
+      quebraDeLinha +
+      mens,
+    "_blank"
+  );
+
+  form.reset();
+}
+
+
