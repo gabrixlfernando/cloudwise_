@@ -461,7 +461,7 @@ button {
 /* orçamento */
 
 .cnt-orcamento {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .orcamento {
@@ -546,7 +546,6 @@ button {
 
 .cnt-rodape {
   padding: 50px 0;
-  margin-top: 50px;
 }
 
 .cnt-rodape div {
@@ -644,7 +643,7 @@ button {
 
 .cnt-direitos div:nth-child(1) {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -664,13 +663,11 @@ button {
 }
 
 .cnt-direitos div:nth-child(3) {
-  display: flex;
-  justify-content: flex-end;
-  width: 5%;
+  width: 3%;
 }
 
 .cnt-direitos div:nth-child(3) img {
-  width: 80%;
+  width: 100%;
 }
 
 /* Formulário de Contato */
@@ -696,6 +693,7 @@ button {
   padding: 2.5%;
   border: solid 1px #fff;
   border-radius: 25px;
+  margin: 20px;
 }
 
 .form form div {
@@ -707,6 +705,7 @@ button {
 .form input,
 form textarea {
   width: 98%;
+  height: 7%;
   padding: 2% 0;
   margin-bottom: 5%;
   background: #fff;
@@ -764,75 +763,77 @@ form textarea {
   padding: 50px 0;
 }
 
-.comotrab{
+.comotrab {
   display: flex;
   justify-content: space-evenly;
 }
 
-.comotrab .imgcomo{
+.comotrab .imgcomo {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45%;
+  width: 30%;
 }
 
-.comotrab .txtcomo{
+.comotrab .imgcomo div {
+  width: 100%;
+}
+
+.comotrab .txtcomo {
   width: 45%;
   height: 50%;
 }
 
-.comotrab .txtcomo #missao{
+.comotrab .txtcomo #missao {
   width: 100%;
   height: 70%;
 }
-.comotrab .txtcomo #visao{
+.comotrab .txtcomo #visao {
   width: 100%;
   height: 70%;
 }
-.comotrab .txtcomo #valores{
+.comotrab .txtcomo #valores {
   width: 100%;
   height: 70%;
 }
 
-.comotrab div div img{
-  width: 85%;
- 
+.comotrab div div img {
+  width: 100%;
 }
 
-.comotrab ul{
+.comotrab ul {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  font-weight: bold;
+  margin-bottom: 50px;
 }
 
-.comotrab ul li h3{
+.comotrab ul li h3 {
   font-weight: 600;
+  margin-top: 20px;
 }
 
-.comotrab ul li h3 i{
+.comotrab ul li h3 i {
   color: #ff8900;
 }
 
-.comotrab ul p{
+.comotrab ul p {
   padding: 20px;
   font-weight: 300;
 }
 
-.comotrab ul input{
+.comotrab ul input {
   display: none;
 }
 
-.comotrab ul label{
+.comotrab ul label {
   color: #f2f2f2;
   font-size: 25px;
   cursor: pointer;
 }
 
-.comotrab ul label:hover{
+.comotrab ul label:hover {
   color: #ff8900;
-} 
-
+}
 
 /* Estilo para os botões de rádio personalizados */
 
@@ -848,9 +849,6 @@ input[type="radio"]:checked + label {
   background-color: #1b50d8;
   color: #fff;
 }
-
-
-
 
 /* Daq pra cima é 1200px - PC */
 
@@ -975,11 +973,6 @@ input[type="radio"]:checked + label {
     margin: 0 auto;
   }
 
-  .cnt-rodape {
-    padding: 50px 0;
-    margin-top: 20px;
-  }
-
   .cnt-rodape div div hr {
     width: 80%;
     height: 3px;
@@ -1055,7 +1048,7 @@ input[type="radio"]:checked + label {
     padding: 0px;
   }
 
-  .menu ul li a i{
+  .menu ul li a i {
     margin-right: 5px;
   }
 
@@ -1132,6 +1125,14 @@ input[type="radio"]:checked + label {
     margin-bottom: 7%;
   }
 
+  .txtsobre h2 {
+    font-size: 22px;
+  }
+
+  .txtsobre h2 span {
+    font-size: 24px !important;
+  }
+
   .txtsobre a {
     padding: 8px 5px;
     font-size: 15px;
@@ -1167,19 +1168,19 @@ input[type="radio"]:checked + label {
 
   .txttrabalho h2 {
     font-family: "Varela Round", sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
   }
 
   .txttrabalho h2 i {
     color: #ff8900;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 30px;
   }
 
   .txttrabalho h3 {
-    font-size: 25px;
+    font-size: 19px;
     margin: 20px 0;
     font-weight: 500;
   }
@@ -1187,11 +1188,11 @@ input[type="radio"]:checked + label {
   .txttrabalho h3 i {
     color: #ff8900;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .txttrabalho p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 25px;
     font-weight: 300;
   }
@@ -1200,6 +1201,11 @@ input[type="radio"]:checked + label {
 
   .cnt-servicos h2 {
     margin-left: 40px;
+    font-size: 22px;
+  }
+
+  .cnt-servicos h2 i {
+    font-size: 20px;
   }
 
   .servicos div {
@@ -1229,12 +1235,14 @@ input[type="radio"]:checked + label {
 
   .servicos div div h3 {
     align-self: flex-start;
+    font-size: 19px;
   }
 
   /* Blog */
 
   .blog h2 {
     margin-left: 40px;
+    font-size: 22px;
   }
 
   .blog div {
@@ -1248,10 +1256,6 @@ input[type="radio"]:checked + label {
   }
 
   /* Orçamento */
-
-  .cnt-orcamento {
-    padding: 65px 0;
-  }
 
   .orcamento div:nth-child(1) {
     width: 85%;
@@ -1292,7 +1296,6 @@ input[type="radio"]:checked + label {
 
   .cnt-rodape {
     padding: 50px 0;
-    margin-top: 50px;
   }
 
   .cnt-rodape div div hr {
@@ -1335,6 +1338,45 @@ input[type="radio"]:checked + label {
   .cnt-rodape div:nth-child(3) a {
     text-align: center;
     line-height: 25px;
+  }
+
+  /* Formulário */
+
+  .form h2 {
+    font-size: 1.5rem;
+  }
+
+  .form input,
+  form textarea {
+    font-size: 10px;
+  }
+
+  .form form input[type="submit"],
+  .form form button {
+    font-size: 8px;
+  }
+
+  form textarea {
+    height: 90px;
+  }
+
+  /* Missão visão e valores */
+
+  .comotrab {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .comotrab ul li {
+    padding: 20px;
+  }
+
+  .comotrab .txtcomo {
+    width: 85%;
+  }
+
+  .comotrab .imgcomo {
+    width: 45%;
   }
 }
 
