@@ -124,7 +124,17 @@ if (isset($_POST['email'])) {
             <input type="text" id="nome" name="nome" placeholder="Informe seu nome">
             <input type="email" name="email" id="email" required placeholder="Informe seu e-mail">
             <input type="tel" id="tel" name="tel" placeholder="Informe seu telefone">
-            <!-- <h3>Mensagem enviada com sucesso!</h3> -->
+            <h3>
+              <?php
+
+              if ($ok == 1) {
+                echo $nome . ', sua MENSAGEM foi enviada com SUCESSO!';
+              } elseif ($ok == 2) {
+                echo $nome . ', ERRO ao enviar sua mensagem. Tente mais tarde.';
+              }
+
+              ?>
+            </h3>
           </div>
           <div>
             <textarea name="mens" id="mens" cols="30" rows="10" placeholder="Informe sua mensagem"></textarea>
