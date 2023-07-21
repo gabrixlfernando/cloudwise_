@@ -670,6 +670,14 @@ button {
   width: 100%;
 }
 
+/* botão */
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 10;
+}
+
 /* Formulário de Contato */
 
 .form {

@@ -56,6 +56,7 @@
   </main>
 
   <!-- Footer -->
+  <button id="back-to-top">Voltar ao topo</button>
   <?php require_once('conteudo/rodape.php'); ?>
 
   <!-- JavaScript -->
