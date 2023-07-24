@@ -1,4 +1,4 @@
- <section data-aos="zoom-in-up" data-aos-duration="1500" class="cnt-orcamento">
+ <section class="cnt-orcamento">
 
         <div class="orcamento site">
           <div>
