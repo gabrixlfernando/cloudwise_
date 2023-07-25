@@ -510,7 +510,15 @@ button {
   background: #1b50d8;
 }
 
-.sanfona{
+/* Oculta a seta original do elemento */
+details > summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+.sanfona {
   width: 75%;
   padding: 20px;
   background: #fff;
@@ -518,7 +526,7 @@ button {
   border-radius: 0px 0px 50px 10px;
 }
 
-.sanfona details{
+.sanfona details {
   margin-top: 10px;
 }
 
@@ -529,11 +537,31 @@ button {
   text-decoration: none;
   transition: all 0.8s;
   padding: 10px 0;
+  margin-left: 30px;
 }
 
-.sanfona summary{
+.sanfona summary {
   color: #1b50d8;
   font-size: 20px;
+  cursor: pointer;
+}
+
+/* Coloca a uma nova seta na esquerda por causa do pseudo-elemento ::before */
+.sanfona summary::before {
+  content: "+";
+  color: #f2f2f2;
+  background: #1b50d8;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* modifica a seta quando clicar */
+.sanfona details[open] summary:before {
+  content: "-";
 }
 
 .sanfona summary i {
@@ -687,7 +715,7 @@ button {
   display: none;
 }
 
-#back-to-top img{
+#back-to-top img {
   width: 100%;
 }
 
@@ -708,7 +736,7 @@ button {
   margin-bottom: 50px;
 }
 
-.form form div h3{
+.form form div h3 {
   padding: 20px;
 }
 
@@ -811,7 +839,7 @@ form textarea {
 }
 
 .comotrab .txtcomo #missao {
-  width: 100%; 
+  width: 100%;
 }
 .comotrab .txtcomo #visao {
   width: 100%;
@@ -831,13 +859,12 @@ form textarea {
   justify-content: space-around;
 }
 
-.comotrab ul li{
+.comotrab ul li {
   padding: 20px;
 }
 
 .comotrab ul li h3 {
   font-weight: 600;
-  
 }
 
 .comotrab ul li h3 i {
@@ -1027,7 +1054,7 @@ input[type="radio"]:checked + label {
   .cnt-rodape div:nth-child(3) a {
     text-align: center;
     line-height: 25px;
-  } 
+  }
 
   /* Direitos */
 
@@ -1042,40 +1069,38 @@ input[type="radio"]:checked + label {
   .cnt-direitos div:nth-child(3) {
     width: 10%;
   }*/
-  
-
 
   /* botão voltar ao topo */
-  #back-to-top{
+  #back-to-top {
     width: 10%;
     right: 5px;
     bottom: 15px;
   }
 
   /* formulário */
-  form{
+  form {
     display: flex;
     flex-direction: column;
   }
 
-  .form form div{
+  .form form div {
     width: 100%;
   }
 
   /* missão visão e valores */
 
-  .comotrab{
+  .comotrab {
     flex-direction: column-reverse;
     align-items: center;
   }
 
   .comotrab .txtcomo {
     width: 90%;
-   }
+  }
 
-   .comotrab .imgcomo {
+  .comotrab .imgcomo {
     width: 45%;
-   }
+  }
 }
 
 /* 601 até 900 será para Notebook - FIM*/
@@ -1337,11 +1362,11 @@ input[type="radio"]:checked + label {
     font-size: 15px;
   }
 
-  .sanfona summary{
+  .sanfona summary {
     font-size: 18px;
   }
 
-  .sanfona details p{
+  .sanfona details p {
     font-size: 16px;
   }
 
@@ -1383,7 +1408,7 @@ input[type="radio"]:checked + label {
   .cnt-rodape div:nth-child(3) a {
     text-align: center;
     line-height: 25px;
-  } 
+  }
 
   /* Direitos */
 
@@ -1400,17 +1425,17 @@ input[type="radio"]:checked + label {
   }*/
 
   /* botão voltar ao topo */
-#back-to-top{
-  width: 20%;
-}
+  #back-to-top {
+    width: 20%;
+  }
   /* Formulário */
 
-  form{
+  form {
     display: flex;
     flex-direction: column;
   }
 
-  .form form div{
+  .form form div {
     width: 100%;
   }
 

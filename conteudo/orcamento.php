@@ -8,7 +8,7 @@
           </div>
   
           <details class="sanfona">
-            <summary><i class="fa-solid fa-circle-plus"></i>Dúvidas frequentes</summary>
+            <summary>Dúvidas frequentes</summary>
             <details>
               <summary>A Cloud Wise trabalha apenas com empresas grandes?</summary>
               <p>Não, trabalhamos com empresas de todos os portes e segmentos, desde pequenos empreendedores até grandes corporações.</p>
