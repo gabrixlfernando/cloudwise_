@@ -510,7 +510,7 @@ button {
   background: #1b50d8;
 }
 
-.orcamento div:nth-child(2) {
+.sanfona{
   width: 75%;
   padding: 20px;
   background: #fff;
@@ -518,19 +518,24 @@ button {
   border-radius: 0px 0px 50px 10px;
 }
 
-.orcamento div:nth-child(2) a {
-  font-size: 20px;
+.sanfona details{
+  margin-top: 10px;
+}
+
+.sanfona details p {
+  font-size: 16px;
   font-weight: 400;
-  color: #1b50d8;
+  color: #11275f;
   text-decoration: none;
   transition: all 0.8s;
+  padding: 10px 0;
 }
 
-.orcamento div:nth-child(2) a:hover {
-  font-size: 22px;
+.sanfona summary{
+  color: #1b50d8;
 }
 
-.orcamento div:nth-child(2) a i {
+.sanfona summary i {
   color: #ff8900;
   margin-right: 10px;
 }
@@ -1315,7 +1320,7 @@ input[type="radio"]:checked + label {
   /* Orçamento */
 
   .orcamento div:nth-child(1) {
-    width: 85%;
+    width: 75%;
   }
 
   .orcamento h2 {
@@ -1329,18 +1334,6 @@ input[type="radio"]:checked + label {
   .orcamento div:nth-child(1) a {
     width: 53%;
     font-size: 15px;
-  }
-
-  .orcamento div:nth-child(2) {
-    width: 85%;
-  }
-
-  .orcamento div:nth-child(2) a {
-    font-size: 18px;
-  }
-
-  .orcamento div:nth-child(2) a:hover {
-    font-size: 20px;
   }
 
   /* Rodapé */
@@ -1397,8 +1390,10 @@ input[type="radio"]:checked + label {
     width: 10%;
   }*/
 
-  
-
+  /* botão voltar ao topo */
+#back-to-top{
+  width: 20%;
+}
   /* Formulário */
 
   form{
