@@ -52,7 +52,7 @@
     </main>
 
     <!-- Footer -->
-    <button id="back-to-top">Voltar ao topo</button>
+    <button id="back-to-top" title="Voltar ao topo"><img src="img/logo (6).png" alt=""></button>
     <?php require_once('conteudo/rodape.php'); ?>
    
     <!-- JavaScript -->

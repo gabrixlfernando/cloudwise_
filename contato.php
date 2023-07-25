@@ -31,7 +31,7 @@ if (isset($_POST['email'])) {
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Receber o e-mail
-    $mail->setFrom('cloudwise@smpsistema.com.br', 'Site AGÊNCIA TIPI');
+    $mail->setFrom('cloudwise@smpsistema.com.br', 'Site AGÊNCIA CLOUDWISE');
     $mail->addAddress('biel_nando2012@hotmail.com');     //Destinatario
 
     // $mail->addAddress('ellen@example.com');               //Name is optional
@@ -54,7 +54,7 @@ if (isset($_POST['email'])) {
 
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Site Agência Tipi';
+    $mail->Subject = 'Site Agência Cloudwise';
     $mail->Body    = "
     
       Nome: $nome <br>
@@ -133,7 +133,7 @@ if (isset($_POST['email'])) {
     <!-- Formulário -->
     <section class="form">
       <div class="site">
-        <h2>Formulario de contato</h2>
+        <h2>Contato</h2>
 
         <form data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="3000" action="#" method="POST" id="formContato">
           <div>
@@ -168,7 +168,7 @@ if (isset($_POST['email'])) {
   </main>
 
   <!-- Footer -->
-  <button id="back-to-top">Voltar ao topo</button>
+  <button id="back-to-top" title="Voltar ao topo"><img src="img/logo (6).png" alt=""></button>
   <?php require_once('conteudo/rodape.php'); ?>
 
   <!-- JavaScript -->

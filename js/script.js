@@ -123,6 +123,15 @@ function formWhats() {
   form.reset();
 }
 
+// esconde e mostra o btn
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 350) { // distancia que tem que rolar antes de aparecer
+  $('#back-to-top').fadeIn(250);
+  } else {
+   $('#back-to-top').fadeOut(250);
+   }
+  });
+
 // botao voltar ao topo 
 
 var btn = $("#back-to-top");

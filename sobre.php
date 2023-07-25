@@ -42,13 +42,13 @@
         <?php require_once('conteudo/sobre.php'); ?>
         <!-- Missão, visão e valores -->
         <section data-aos="zoom-in-up" class="como" id="como-mvv">
-            <div class="comotrab site">
+            <div data-aos="fade-down" class="comotrab site">
                 <div class="imgcomo">
-                    <div data-aos="flip-down" data-aos-duration="1000" id="img-mvv">
+                    <div id="img-mvv">
                         <img src="img/missao.png" id="img-mvv">
                     </div>
                 </div>
-                <div data-aos="fade-down" class="txtcomo">
+                <div class="txtcomo">
                     <ul>
                         <li>
                             <input type="radio" name="btn-mvv" id="btn-missao">
@@ -129,7 +129,7 @@
     </main>
 
     <!-- Footer -->
-    <button id="back-to-top">Voltar ao topo</button>
+    <button id="back-to-top" title="Voltar ao topo"><img src="img/logo (6).png" alt=""></button>
     <?php require_once('conteudo/rodape.php'); ?>
 
     <!-- JavaScript -->

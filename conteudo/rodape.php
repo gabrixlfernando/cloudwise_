@@ -1,8 +1,7 @@
- <footer data-aos="fade-down"
-    data-aos-anchor-placement="center-bottom" data-aos-duration="1000" class="footer">
+ <footer class="footer">
 
       <section class="cnt-rodape">
-        <div>
+        <div class="site">
           <div>
             <h2>Acompanhe de perto</h2>
             <hr>
@@ -54,16 +53,16 @@
 
       <section class="cnt-direitos">
         <div>
-          <p>2023 Todos os direitos reservados</p>
+          <p>2023 Todos os direitos reservados &#169;</p>
 
-          <div>
+          <!-- <div>
             <a href="#">Termos & Condições</a>
             <a href="#">Privacidade</a>
           </div>
     
           <div>
             <img src="img/logo (3).png" alt="">
-          </div>
+          </div> -->
         </div>
         
         
