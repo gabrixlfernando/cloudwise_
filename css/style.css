@@ -523,7 +523,7 @@ button {
 }
 
 .sanfona details p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #11275f;
   text-decoration: none;
@@ -533,6 +533,7 @@ button {
 
 .sanfona summary{
   color: #1b50d8;
+  font-size: 20px;
 }
 
 .sanfona summary i {
@@ -1334,6 +1335,14 @@ input[type="radio"]:checked + label {
   .orcamento div:nth-child(1) a {
     width: 53%;
     font-size: 15px;
+  }
+
+  .sanfona summary{
+    font-size: 18px;
+  }
+
+  .sanfona details p{
+    font-size: 16px;
   }
 
   /* Rodapé */
