@@ -1,4 +1,4 @@
- <footer class="footer">
+ <footer data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1500" class="footer">
 
       <section class="cnt-rodape">
         <div class="site">

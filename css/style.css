@@ -793,7 +793,7 @@ form textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 40%;
 }
 
 .comotrab .imgcomo div {
@@ -802,20 +802,18 @@ form textarea {
 
 .comotrab .txtcomo {
   width: 45%;
-  height: 50%;
 }
 
 .comotrab .txtcomo #missao {
-  width: 100%;
-  height: 70%;
+  width: 100%; 
 }
 .comotrab .txtcomo #visao {
   width: 100%;
-  height: 70%;
+  display: none;
 }
 .comotrab .txtcomo #valores {
   width: 100%;
-  height: 70%;
+  display: none;
 }
 
 .comotrab div div img {
@@ -825,12 +823,15 @@ form textarea {
 .comotrab ul {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
+}
+
+.comotrab ul li{
+  padding: 20px;
 }
 
 .comotrab ul li h3 {
   font-weight: 600;
-  margin-top: 20px;
+  
 }
 
 .comotrab ul li h3 i {
@@ -838,7 +839,7 @@ form textarea {
 }
 
 .comotrab ul p {
-  padding: 20px;
+  padding: 10px;
   font-weight: 300;
 }
 
@@ -1017,6 +1018,11 @@ input[type="radio"]:checked + label {
     align-items: center;
   }
 
+  .cnt-rodape div:nth-child(3) a {
+    text-align: center;
+    line-height: 25px;
+  } 
+
   /* Direitos */
 
   /* .cnt-direitos div:nth-child(1) p {
@@ -1029,11 +1035,8 @@ input[type="radio"]:checked + label {
 
   .cnt-direitos div:nth-child(3) {
     width: 10%;
-  }
-  .cnt-rodape div:nth-child(3) a {
-    text-align: center;
-    line-height: 25px;
-  } */
+  }*/
+  
 
 
   /* botão voltar ao topo */
@@ -1052,6 +1055,21 @@ input[type="radio"]:checked + label {
   .form form div{
     width: 100%;
   }
+
+  /* missão visão e valores */
+
+  .comotrab{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .comotrab .txtcomo {
+    width: 90%;
+   }
+
+   .comotrab .imgcomo {
+    width: 45%;
+   }
 }
 
 /* 601 até 900 será para Notebook - FIM*/
@@ -1360,6 +1378,11 @@ input[type="radio"]:checked + label {
     align-items: center;
   }
 
+  .cnt-rodape div:nth-child(3) a {
+    text-align: center;
+    line-height: 25px;
+  } 
+
   /* Direitos */
 
   /* .cnt-direitos div:nth-child(1) p {
@@ -1372,12 +1395,9 @@ input[type="radio"]:checked + label {
 
   .cnt-direitos div:nth-child(3) {
     width: 10%;
-  }
+  }*/
 
-  .cnt-rodape div:nth-child(3) a {
-    text-align: center;
-    line-height: 25px;
-  } */
+  
 
   /* Formulário */
 

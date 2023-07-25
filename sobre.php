@@ -41,9 +41,9 @@
         <!-- Sobre -->
         <?php require_once('conteudo/sobre.php'); ?>
         <!-- Missão, visão e valores -->
-        <section data-aos="zoom-in-up" class="como" id="como-mvv">
-            <div data-aos="fade-down" class="comotrab site">
-                <div class="imgcomo">
+        <section data-aos="fade-down" class="como" id="como-mvv">
+            <div class="comotrab site">
+                <div data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="imgcomo">
                     <div id="img-mvv">
                         <img src="img/missao.png" id="img-mvv">
                     </div>
