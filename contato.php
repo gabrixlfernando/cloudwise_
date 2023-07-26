@@ -163,8 +163,63 @@ if (isset($_POST['email'])) {
 
       </div>
     </section>
-    <!-- Orçamento -->
-    <?php require_once('conteudo/orcamento.php'); ?>
+
+    <!-- Nossa Equipe -->
+    <section class="cnt-equipe">
+      <div class="equipe site">
+        <h2>Nossa Equipe</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptates odio laboriosam</p>
+        <div>
+          <div>
+
+            <img src="img/gabriel.png" alt="">
+
+            <h3>Nome</h3>
+            <h4>Função</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
+            <ul>
+              <li><a href="">as</a></li>
+              <li><a href="">as</a></li>
+            </ul>
+          </div>
+          <div>
+            <img src="img/cris.png" alt="">
+
+            <h3>Nome</h3>
+            <h4>Função</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
+            <ul>
+              <li><a href="">as</a></li>
+              <li><a href="">as</a></li>
+            </ul>
+          </div>
+          <div>
+
+            <img src="img/gabi.png" alt="">
+
+            <h3>Nome</h3>
+            <h4>Função</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
+            <ul>
+              <li><a href="">as</a></li>
+              <li><a href="">as</a></li>
+            </ul>
+          </div>
+          <div>
+            <img src="img/pedro.png" alt="">
+            <h3>Nome</h3>
+            <h4>Função</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
+            <ul>
+              <li><a href="">sa</a></li>
+              <li><a href="">sa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
   </main>
 
   <!-- Footer -->

@@ -905,6 +905,75 @@ input[type="radio"]:checked + label {
   color: #fff;
 }
 
+/* Nossa equipe */
+
+.cnt-equipe{
+  padding: 100px 0;
+}
+
+.equipe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.equipe h2{
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+.equipe p{
+  margin-bottom: 5%;
+  font-size: 22px;
+}
+
+.equipe div{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.equipe div div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background: #152039;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.equipe div div img{
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.equipe div div h3{
+  font-size: 18px;
+  padding: 10px;
+}
+
+.equipe div div h4{
+  font-size: 18px;
+  padding: 10px;
+}
+
+.equipe div div p{
+  font-size: 18px;
+  padding: 10px;
+}
+
+.equipe div div ul{
+  display: flex;
+}
+
+.equipe div div ul li a{
+  padding: 20px;
+  text-decoration: none;
+}
+
 /* Daq pra cima é 1200px - PC */
 
 /* 601 até 900 será para Notebook - Inicio */
