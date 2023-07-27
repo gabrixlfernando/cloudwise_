@@ -862,7 +862,7 @@ form textarea {
 }
 
 .comotrab ul li {
-  padding: 20px;
+  padding: 20px 5px;
 }
 
 .comotrab ul li h3 {
@@ -930,6 +930,7 @@ input[type="radio"]:checked + label {
 .equipe p{
   margin-bottom: 5%;
   font-size: 22px;
+  padding: 0 10px;
 }
 
 .equipe div{
@@ -980,16 +981,15 @@ input[type="radio"]:checked + label {
 }
 
 .equipe div div ul li{
-  width: 40%;
+  width: 30%;
 }
 
 .equipe div div ul li a{
-  padding: 20px;
   text-decoration: none;
 }
 
 .equipe div div ul li a img{
-  width: 65%;
+  width: 100%;
 }
 
 /* Daq pra cima é 1200px - PC */
@@ -1205,6 +1205,10 @@ input[type="radio"]:checked + label {
   .equipe div div{
     width: 80%;
     margin-bottom: 5%;
+  }
+
+  .equipe div div ul li{
+    width: 25%;
   }
 }
 
@@ -1580,9 +1584,13 @@ input[type="radio"]:checked + label {
   /* Nossa Equipe */
 
   .equipe p{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     line-height: 25px;
+  }
+
+  .equipe h2{
+    font-size: 1.5rem;
   }
 
   .equipe div{
@@ -1593,6 +1601,10 @@ input[type="radio"]:checked + label {
   .equipe div div{
     width: 70%;
     margin-bottom: 5%;
+  }
+
+  .equipe div div img{
+    width: 50%;
   }
 }
 
