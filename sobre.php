@@ -123,6 +123,9 @@
             </div>
         </section>
 
+        <!-- Nossa equipe -->
+        <?php require_once('conteudo/nossaequipe.php'); ?>
+
 
         <!-- Orçamento -->
         <?php require_once('conteudo/orcamento.php'); ?>
