@@ -4,7 +4,7 @@
           <div>
             <h2>Transforme seu <span>Sonho</span> em <span>Realidade</span>.</h2>
             <h2>Faça um <span>Orçamento</span> e veja como podemos levar seu negócio a altura.</h2>
-            <a href="contato.php">Solicite seu orçamento <i class="fa-solid fa-comments-dollar"></i></a>
+            <a href="contato.php">Entre em contato <i class="fa-solid fa-comments-dollar"></i></a>
           </div>
   
           <details class="sanfona">

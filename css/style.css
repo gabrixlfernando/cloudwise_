@@ -312,7 +312,7 @@ button {
   flex-direction: column;
   width: 45%;
   margin: 10px;
-  background: #1b50d8;
+  background: linear-gradient(328deg, #1b50d8, transparent);
   /* border-radius: 25px 15px; */
   border: solid thin #171717;
   box-shadow: 8px 5px 8px #171717;
@@ -342,7 +342,8 @@ button {
 .servicos div div p {
   line-height: 25px;
   flex-grow: 1;
-  padding: 15px 20px;
+  /* padding: 15px 20px; */
+  padding: 32px 20px;
   font-size: 17px;
 }
 
@@ -533,6 +534,7 @@ summary::-webkit-details-marker {
 .sanfona details p {
   font-size: 18px;
   font-weight: 400;
+  line-height: 22px;
   color: #11275f;
   text-decoration: none;
   transition: all 0.8s;
@@ -550,7 +552,7 @@ summary::-webkit-details-marker {
 .sanfona summary::before {
   content: "+";
   color: #f2f2f2;
-  background: #1b50d8;
+  background: #ff8900;
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -874,6 +876,7 @@ form textarea {
 .comotrab ul p {
   padding: 10px;
   font-weight: 300;
+  line-height: 25px;
 }
 
 .comotrab ul input {
@@ -940,39 +943,53 @@ input[type="radio"]:checked + label {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  background: linear-gradient(45deg, #1923a1, transparent);
+  background: linear-gradient(57deg, #1b50d8, transparent);
   border-radius: 20px;
   padding: 20px;
+  box-shadow: 7px 10px 10px #171717;
 }
 
 .equipe div div img{
-  width: 50%;
+  width: 70%;
   margin-bottom: 5%;
 }
 
 .equipe div div h3{
   font-size: 18px;
   padding: 10px;
+  font-weight: 600;
 }
 
 .equipe div div h4{
   font-size: 18px;
   padding: 10px;
+  font-weight: 400;
 }
 
 .equipe div div p{
   line-height: 25px;
   font-size: 18px;
   padding: 10px;
+  font-weight: 300;
 }
 
 .equipe div div ul{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.equipe div div ul li{
+  width: 40%;
 }
 
 .equipe div div ul li a{
   padding: 20px;
   text-decoration: none;
+}
+
+.equipe div div ul li a img{
+  width: 65%;
 }
 
 /* Daq pra cima é 1200px - PC */
