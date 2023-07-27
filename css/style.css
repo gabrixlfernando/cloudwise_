@@ -918,7 +918,7 @@ input[type="radio"]:checked + label {
 }
 
 .equipe h2{
-  font-size: 30px;
+  font-size: 2.8rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin-bottom: 5%;
@@ -940,7 +940,7 @@ input[type="radio"]:checked + label {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  background: #152039;
+  background: linear-gradient(45deg, #1923a1, transparent);
   border-radius: 20px;
   padding: 20px;
 }
@@ -961,6 +961,7 @@ input[type="radio"]:checked + label {
 }
 
 .equipe div div p{
+  line-height: 25px;
   font-size: 18px;
   padding: 10px;
 }
@@ -1169,6 +1170,24 @@ input[type="radio"]:checked + label {
 
   .comotrab .imgcomo {
     width: 45%;
+  }
+
+  /* Nossa Equipe */
+
+  .equipe p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .equipe div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .equipe div div{
+    width: 80%;
+    margin-bottom: 5%;
   }
 }
 
@@ -1539,6 +1558,24 @@ input[type="radio"]:checked + label {
 
   .comotrab .imgcomo {
     width: 45%;
+  }
+
+  /* Nossa Equipe */
+
+  .equipe p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .equipe div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .equipe div div{
+    width: 70%;
+    margin-bottom: 5%;
   }
 }
 

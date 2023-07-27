@@ -168,14 +168,14 @@ if (isset($_POST['email'])) {
     <section class="cnt-equipe">
       <div class="equipe site">
         <h2>Nossa Equipe</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus voluptates odio laboriosam</p>
+        <p>Conheça a equipe de inovação da Cloud Wise: Criatividade, Tecnologia e Sucesso em um só lugar!</p>
         <div>
           <div>
 
-            <img src="img/gabriel.png" alt="">
+            <img src="img/cris.png" alt="">
 
-            <h3>Nome</h3>
-            <h4>Função</h4>
+            <h3>Cris</h3>
+            <h4>Gerente</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
             <ul>
               <li><a href="">as</a></li>
@@ -183,10 +183,10 @@ if (isset($_POST['email'])) {
             </ul>
           </div>
           <div>
-            <img src="img/cris.png" alt="">
+            <img src="img/gabriel.png" alt="">
 
-            <h3>Nome</h3>
-            <h4>Função</h4>
+            <h3>Gabriel Fernando</h3>
+            <h4>Desenvolvedor</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
             <ul>
               <li><a href="">as</a></li>
@@ -197,8 +197,8 @@ if (isset($_POST['email'])) {
 
             <img src="img/gabi.png" alt="">
 
-            <h3>Nome</h3>
-            <h4>Função</h4>
+            <h3>Gabi</h3>
+            <h4>Desenvolvedora</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
             <ul>
               <li><a href="">as</a></li>
@@ -207,8 +207,8 @@ if (isset($_POST['email'])) {
           </div>
           <div>
             <img src="img/pedro.png" alt="">
-            <h3>Nome</h3>
-            <h4>Função</h4>
+            <h3>Pedro</h3>
+            <h4>Desenvolvedor</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus amet dolorum. Dolorem, veniam. Ea, atque? Nesciunt maiores expedita facere illo possimus consequuntur dicta reiciendis atque, doloribus, sunt veniam quos!</p>
             <ul>
               <li><a href="">sa</a></li>
