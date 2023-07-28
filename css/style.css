@@ -458,6 +458,52 @@ button {
   margin-left: 10px;
 }
 
+/* páginas blog */
+
+.blog1 h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 5%;
+  font-weight: bold;
+  color: #ff8900;
+}
+
+.blog1 img {
+  width: 100%;
+}
+.blog1 h3 {
+  font-size: 2rem;
+  margin: 3% 0;
+  font-weight: 500;
+  color: #ff8900;
+}
+
+.blog1 p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 5%;
+}
+.blog1 ol {
+  padding: 20px;
+}
+
+.blog1 li {
+  list-style-type: decimal;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 5%;
+}
+
+.blog1 li span {
+  color: #ff8900;
+  font-weight: bold;
+}
+
+.img-centro {
+  margin: 0 auto;
+  width: 50%;
+}
+
 /* orçamento */
 
 .cnt-orcamento {
@@ -910,36 +956,36 @@ input[type="radio"]:checked + label {
 
 /* Nossa equipe */
 
-.cnt-equipe{
+.cnt-equipe {
   padding: 100px 0;
 }
 
-.equipe{
+.equipe {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.equipe h2{
+.equipe h2 {
   font-size: 2.8rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 5%;
 }
 
-.equipe p{
+.equipe p {
   margin-bottom: 5%;
   font-size: 22px;
   padding: 0 10px;
 }
 
-.equipe div{
+.equipe div {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.equipe div div{
+.equipe div div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -950,24 +996,24 @@ input[type="radio"]:checked + label {
   box-shadow: 7px 10px 10px #171717;
 }
 
-.equipe div div img{
+.equipe div div img {
   width: 70%;
   margin-bottom: 5%;
 }
 
-.equipe div div h3{
+.equipe div div h3 {
   font-size: 18px;
   padding: 10px;
   font-weight: 600;
 }
 
-.equipe div div h4{
+.equipe div div h4 {
   font-size: 18px;
   padding: 10px;
   font-weight: 400;
 }
 
-.equipe div div p{
+.equipe div div p {
   line-height: 25px;
   font-size: 18px;
   padding: 10px;
@@ -975,21 +1021,21 @@ input[type="radio"]:checked + label {
   flex-grow: 1;
 }
 
-.equipe div div ul{
+.equipe div div ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.equipe div div ul li{
+.equipe div div ul li {
   width: 30%;
 }
 
-.equipe div div ul li a{
+.equipe div div ul li a {
   text-decoration: none;
 }
 
-.equipe div div ul li a img{
+.equipe div div ul li a img {
   width: 100%;
 }
 
@@ -1192,23 +1238,23 @@ input[type="radio"]:checked + label {
 
   /* Nossa Equipe */
 
-  .equipe p{
+  .equipe p {
     font-size: 20px;
     text-align: center;
     line-height: 25px;
   }
 
-  .equipe div{
+  .equipe div {
     flex-direction: column;
     align-items: center;
   }
 
-  .equipe div div{
+  .equipe div div {
     width: 80%;
     margin-bottom: 5%;
   }
 
-  .equipe div div ul li{
+  .equipe div div ul li {
     width: 20%;
   }
 }
@@ -1584,27 +1630,27 @@ input[type="radio"]:checked + label {
 
   /* Nossa Equipe */
 
-  .equipe p{
+  .equipe p {
     font-size: 15px;
     text-align: center;
     line-height: 25px;
   }
 
-  .equipe h2{
+  .equipe h2 {
     font-size: 1.5rem;
   }
 
-  .equipe div{
+  .equipe div {
     flex-direction: column;
     align-items: center;
   }
 
-  .equipe div div{
+  .equipe div div {
     width: 70%;
     margin-bottom: 5%;
   }
 
-  .equipe div div img{
+  .equipe div div img {
     width: 50%;
   }
 }

@@ -10,7 +10,7 @@
           <span style="color: #ff8900; font-size: 21px">Wise</span> - 02 Jun 2023
         </h4>
         <p>Começando um novo projeto com o cliente.</p>
-        <a href="#">Leia mais<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <a href="blog1.php">Leia mais<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <img src="img/imgBlog (3).png" alt="">
