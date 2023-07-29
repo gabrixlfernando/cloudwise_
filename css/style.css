@@ -460,18 +460,29 @@ button {
 
 /* páginas blog */
 
+.cnt-blog1{
+  padding: 50px 0;
+}
+
 .blog1 h2 {
   font-size: 2.5rem;
-  text-align: center;
   margin-bottom: 5%;
-  font-weight: bold;
+  font-weight: 500;
   color: #ff8900;
+  line-height: 40px;
+}
+
+.blog1 h3{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 5%;
 }
 
 .blog1 img {
   width: 100%;
 }
-.blog1 h3 {
+.blog1 h4 {
   font-size: 2rem;
   margin: 3% 0;
   font-weight: 500;
@@ -482,26 +493,44 @@ button {
   font-size: 20px;
   line-height: 25px;
   margin-bottom: 5%;
+  font-weight: 300;
 }
-.blog1 ol {
+.blog1 ul {
   padding: 20px;
 }
 
 .blog1 li {
-  list-style-type: decimal;
+  list-style-type:disc;
   color: #fff;
   line-height: 25px;
+  font-size: 20px;
   margin-bottom: 5%;
 }
 
 .blog1 li span {
   color: #ff8900;
   font-weight: bold;
+  font-size: 20px;
 }
 
-.img-centro {
+.blog1 div{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blog1 div div{
+  color: #fff;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.blog1 div div span{
+  margin: 0 10px;
+}
+.blog1 .img-centro {
   margin: 0 auto;
   width: 50%;
+  margin-bottom: 5%
 }
 
 /* orçamento */

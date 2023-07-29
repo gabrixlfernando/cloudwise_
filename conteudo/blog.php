@@ -4,13 +4,13 @@
     <h2><i class="fa-solid fa-pager"></i>Blog</h2>
     <div>
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-        <img src="img/imgBlog (1).png" alt="">
-        <h3>Business</h3>
+        <img src="img/imgBlog.png" alt="">
+        <h3>Tecnologia</h3>
         <h4>Equipe <span style="color: #f2f2f2; font-size: 21px">Cloud</span>
           <span style="color: #ff8900; font-size: 21px">Wise</span> - 02 Jun 2023
         </h4>
-        <p>Começando um novo projeto com o cliente.</p>
-        <a href="blog1.php">Leia mais<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        <p>A Importância de Sites Responsivos.</p>
+        <a href="siteresponsivo.php">Leia mais<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <img src="img/imgBlog (3).png" alt="">
