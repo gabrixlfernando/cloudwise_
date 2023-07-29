@@ -42,39 +42,39 @@
             <div class="blog1 site">
                 <div>
                     <div>
-                        Equipe Cloudwise 
+                        Equipe Cloudwise
                         <span>&#x2022;</span>
                         12 Jun, 2023
                     </div>
-                <h2>Por que Ter um Site Adaptável a Dispositivos Móveis é Fundamental para o Sucesso Online?</h2>
-                <h3>Hoje em dia, a maioria das pessoas acessa a internet através de dispositivos móveis, como smartphones e tablets. Ter um site responsivo é essencial para garantir que sua empresa alcance e atenda ao público de forma eficiente.</h3>
-                <img src="img/responsivo.png" alt="">
-                <h4>O Que é um Site Responsivo?</h4>
-                <p>Um site responsivo é uma abordagem de design e desenvolvimento web que permite que um site se adapte automaticamente a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente e otimizada em todos os dispositivos, como computadores, smartphones e tablets.</p>
-                <p>A principal característica de um site responsivo é sua capacidade de reorganizar e redimensionar o conteúdo de forma inteligente, de acordo com o tamanho da tela do dispositivo utilizado pelo usuário. Isso significa que elementos como imagens, textos, botões e menus são ajustados para se adequar ao espaço disponível, garantindo que o site seja visualmente atraente e funcional em qualquer dispositivo.</p>
-                <p>Ter um site responsivo não é mais uma opção, mas uma necessidade para empresas que desejam alcançar e engajar seu público de forma eficiente. Além de melhorar a experiência do usuário, um site responsivo também influencia positivamente o SEO, contribuindo para um melhor ranqueamento nos mecanismos de busca, especialmente no Google, que prioriza sites adaptados a dispositivos móveis em seu algoritmo de indexação.</p>
-                <h4>Fidelização de Clientes e Aumento das Conversões</h4>
-                <p>Você sabia que ter um site responsivo pode ser o segredo para fidelizar clientes e aumentar as conversões do seu negócio? Neste artigo, exploramos como os sites responsivos podem desempenhar um papel crucial no fortalecimento do relacionamento com os clientes e no aumento das taxas de conversão.</p>
-                <ul>
-                    <li><span>Experiência de Usuário Agradável</span>: Sites responsivos oferecem uma experiência consistente e amigável em todos os dispositivos, como smartphones e tablets. Navegar em um site que se adapta automaticamente ao tamanho da tela torna a experiência do usuário mais agradável e convidativa.</li>
-                    <li><span>Aumento das Conversões</span>: A facilidade de acesso a informações importantes e chamadas para ação (CTAs) bem posicionadas nos sites responsivos aumenta a probabilidade de os visitantes realizarem ações desejadas, como fazer uma compra ou preencher um formulário de contato, impulsionando as conversões.</li>
-                    <li><span>Fidelização de Clientes</span>: Ao proporcionar uma navegação intuitiva e conteúdo legível, os sites responsivos aumentam a satisfação dos visitantes. Clientes satisfeitos têm mais probabilidade de retornar ao site e interagir com a marca com frequência, promovendo a fidelização.</li>
-                </ul>
-                <p>Investir em um site responsivo é investir na satisfação do usuário, no desempenho do site e no sucesso do seu negócio. Uma experiência memorável em dispositivos móveis é essencial para conquistar a confiança dos clientes e garantir uma posição competitiva no mercado digital. Seja qual for o tamanho da tela, um site responsivo proporciona uma jornada do usuário fluida e positiva, contribuindo para o crescimento e sucesso contínuo da sua marca.</p>
-                <div class="img-centro">
-                    <img  src="img/responsivo1.jpg" alt="">
-                </div>
-                <p>A conclusão é clara: investir em um site responsivo é essencial para o sucesso online. Proporcionar uma experiência de usuário memorável, alcançar melhores posições nos mecanismos de busca e manter-se atualizado com as inovações tecnológicas são os pilares que sustentam o crescimento e prosperidade do seu negócio na era digital.</p>
-                <p>Portanto, não perca tempo. Adote um site responsivo e abra as portas para o sucesso online, construindo uma base sólida para o crescimento e alcance de seus objetivos comerciais em um mundo cada vez mais móvel e conectado.</p>
+                    <h2>Por que Ter um Site Adaptável a Dispositivos Móveis é Fundamental para o Sucesso Online?</h2>
+                    <h3>Hoje em dia, a maioria das pessoas acessa a internet através de dispositivos móveis, como smartphones e tablets. Ter um site responsivo é essencial para garantir que sua empresa alcance e atenda ao público de forma eficiente.</h3>
+                    <img src="img/responsivo.png" alt="">
+                    <h4>O Que é um Site Responsivo?</h4>
+                    <p>Um site responsivo é uma abordagem de design e desenvolvimento web que permite que um site se adapte automaticamente a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente e otimizada em todos os dispositivos, como computadores, smartphones e tablets.</p>
+                    <p>A principal característica de um site responsivo é sua capacidade de reorganizar e redimensionar o conteúdo de forma inteligente, de acordo com o tamanho da tela do dispositivo utilizado pelo usuário. Isso significa que elementos como imagens, textos, botões e menus são ajustados para se adequar ao espaço disponível, garantindo que o site seja visualmente atraente e funcional em qualquer dispositivo.</p>
+                    <p>Ter um site responsivo não é mais uma opção, mas uma necessidade para empresas que desejam alcançar e engajar seu público de forma eficiente. Além de melhorar a experiência do usuário, um site responsivo também influencia positivamente o SEO, contribuindo para um melhor ranqueamento nos mecanismos de busca, especialmente no Google, que prioriza sites adaptados a dispositivos móveis em seu algoritmo de indexação.</p>
+                    <h4>Fidelização de Clientes e Aumento das Conversões</h4>
+                    <p>Você sabia que ter um site responsivo pode ser o segredo para fidelizar clientes e aumentar as conversões do seu negócio? Neste artigo, exploramos como os sites responsivos podem desempenhar um papel crucial no fortalecimento do relacionamento com os clientes e no aumento das taxas de conversão.</p>
+                    <ul>
+                        <li><span>Experiência de Usuário Agradável</span>: Sites responsivos oferecem uma experiência consistente e amigável em todos os dispositivos, como smartphones e tablets. Navegar em um site que se adapta automaticamente ao tamanho da tela torna a experiência do usuário mais agradável e convidativa.</li>
+                        <li><span>Aumento das Conversões</span>: A facilidade de acesso a informações importantes e chamadas para ação (CTAs) bem posicionadas nos sites responsivos aumenta a probabilidade de os visitantes realizarem ações desejadas, como fazer uma compra ou preencher um formulário de contato, impulsionando as conversões.</li>
+                        <li><span>Fidelização de Clientes</span>: Ao proporcionar uma navegação intuitiva e conteúdo legível, os sites responsivos aumentam a satisfação dos visitantes. Clientes satisfeitos têm mais probabilidade de retornar ao site e interagir com a marca com frequência, promovendo a fidelização.</li>
+                    </ul>
+                    <p>Investir em um site responsivo é investir na satisfação do usuário, no desempenho do site e no sucesso do seu negócio. Uma experiência memorável em dispositivos móveis é essencial para conquistar a confiança dos clientes e garantir uma posição competitiva no mercado digital. Seja qual for o tamanho da tela, um site responsivo proporciona uma jornada do usuário fluida e positiva, contribuindo para o crescimento e sucesso contínuo da sua marca.</p>
+                    <div class="img-centro">
+                        <img src="img/responsivo1.jpg" alt="">
+                    </div>
+                    <p>A conclusão é clara: investir em um site responsivo é essencial para o sucesso online. Proporcionar uma experiência de usuário memorável, alcançar melhores posições nos mecanismos de busca e manter-se atualizado com as inovações tecnológicas são os pilares que sustentam o crescimento e prosperidade do seu negócio na era digital.</p>
+                    <p>Portanto, não perca tempo. Adote um site responsivo e abra as portas para o sucesso online, construindo uma base sólida para o crescimento e alcance de seus objetivos comerciais em um mundo cada vez mais móvel e conectado.</p>
 
                 </div>
-                
-                
+
+
             </div>
         </section>
 
         <!-- Blog -->
-        <?php require_once('conteudo/blog.php')?>
+        <?php require_once('conteudo/blog.php') ?>
 
         <!-- Nossa equipe -->
         <?php require_once('conteudo/nossaequipe.php'); ?>
