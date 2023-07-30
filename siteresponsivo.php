@@ -42,9 +42,9 @@
             <div class="blog1 site">
                 <div>
                     <div>
-                        Equipe Cloudwise
+                        Equipe Cloud Wise
                         <span>&#x2022;</span>
-                        12 Jun, 2023
+                        29 Jul, 2023
                     </div>
                     <h2>Por que Ter um Site Adaptável a Dispositivos Móveis é Fundamental para o Sucesso Online?</h2>
                     <h3>Hoje em dia, a maioria das pessoas acessa a internet através de dispositivos móveis, como smartphones e tablets. Ter um site responsivo é essencial para garantir que sua empresa alcance e atenda ao público de forma eficiente.</h3>
@@ -62,7 +62,7 @@
                     </ul>
                     <p>Investir em um site responsivo é investir na satisfação do usuário, no desempenho do site e no sucesso do seu negócio. Uma experiência memorável em dispositivos móveis é essencial para conquistar a confiança dos clientes e garantir uma posição competitiva no mercado digital. Seja qual for o tamanho da tela, um site responsivo proporciona uma jornada do usuário fluida e positiva, contribuindo para o crescimento e sucesso contínuo da sua marca.</p>
                     <div class="img-centro">
-                        <img src="img/responsivo1.jpg" alt="">
+                        <img src="img/responsivo1.png" alt="">
                     </div>
                     <p>A conclusão é clara: investir em um site responsivo é essencial para o sucesso online. Proporcionar uma experiência de usuário memorável, alcançar melhores posições nos mecanismos de busca e manter-se atualizado com as inovações tecnológicas são os pilares que sustentam o crescimento e prosperidade do seu negócio na era digital.</p>
                     <p>Portanto, não perca tempo. Adote um site responsivo e abra as portas para o sucesso online, construindo uma base sólida para o crescimento e alcance de seus objetivos comerciais em um mundo cada vez mais móvel e conectado.</p>

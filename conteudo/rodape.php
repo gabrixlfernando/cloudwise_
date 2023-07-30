@@ -34,7 +34,7 @@
        <div>
          <h2>Agência</h2>
          <a href="contato.php">Av. Marechal Tito, 1500<br>São Paulo-SP</a>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0254648900814!2d-46.434437023727014!3d-23.495592259180924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dda7be6fb9%3A0xa74e7d5a53104311!2sSenac%20S%C3%A3o%20Miguel%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1690573051445!5m2!1spt-BR!2sbr" width="250" height="100" style="border:0px; border-radius: 15px 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0254648900814!2d-46.434437023727014!3d-23.495592259180924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dda7be6fb9%3A0xa74e7d5a53104311!2sSenac%20S%C3%A3o%20Miguel%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1690573051445!5m2!1spt-BR!2sbr" width="250" height="90" style="border:0px; border-radius: 10px 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </div>
 
        <div>
