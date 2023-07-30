@@ -83,12 +83,12 @@ function formWhats() {
 
   var form = document.getElementById('formContato');
 
-  var nome = "*Nome: *" + document.getElementById("nome").value;
-  var email = "*E-mail: *" + document.getElementById("email").value;
+  var nome = "*Nome:* " + document.getElementById("nome").value;
+  var email = "*E-mail:* " + document.getElementById("email").value;
   var tel = document.getElementById("tel").value;
-  var mens = "*Mensagem: *" + document.getElementById("mens").value;
+  var mens = "*Mensagem:* " + document.getElementById("mens").value;
 
-  var agencia = "*Agêngia Tipi*";
+  var agencia = "*Agêngia Cloud Wise*";
   var assunto = "Mensagem do site!";
 
   var numFone = "5511944612358";
@@ -98,7 +98,7 @@ function formWhats() {
     alert("O campo do celular é obrigatório")
     return;
   } else {
-    var tel = "*Fone: *" + document.getElementById("tel").value;
+    var tel = "*Fone:* " + document.getElementById("tel").value;
   }
 
   window.open(
@@ -106,17 +106,17 @@ function formWhats() {
       numFone +
       "&text=" +
       assunto +
-      "-" +
+      " - " +
       agencia +
       quebraDeLinha +
       quebraDeLinha +
-      nome +
+      nome  +
       quebraDeLinha +
-      email +
+      email  +
       quebraDeLinha +
-      tel +
+      tel  +
       quebraDeLinha +
-      mens,
+      mens ,
     "_blank"
   );
 
