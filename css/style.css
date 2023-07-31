@@ -639,11 +639,13 @@ summary::before {
   text-align: center;
   border-radius: 50%;
   margin-right: 10px;
+  transition: transform 0.3s;
 }
 
 /* modifica a seta quando clicar */
 details[open] summary:before {
-  content: "-";
+  content: "+";
+  transform: rotate(45deg);
 }
 
 .sanfona summary i {
