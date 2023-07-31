@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
 
 body {
   background: linear-gradient(to bottom, #171717, #152039, #1b50d8);
@@ -157,6 +158,41 @@ button {
 .banner .slick-dots li {
   margin: 0 15px;
 }
+
+/* .banner{
+  background: url(../img/estrelas.svg) repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  height: 725px;
+}
+
+
+
+.banner h1{
+  font-size: 150px;
+  color: #f2f2f2;
+  font-family: 'Lilita One', cursive;
+}
+
+
+
+.banner h2{
+  font-size: 150px;
+  color: #ff8900;
+  font-family: 'Lilita One', cursive;
+}
+
+.banner h3{
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 20px;
+}
+ */
 
 /* Sobre */
 
@@ -460,7 +496,7 @@ button {
 
 /* páginas blog */
 
-.cnt-blog1{
+.cnt-blog1 {
   padding: 50px 0;
 }
 
@@ -472,7 +508,7 @@ button {
   line-height: 40px;
 }
 
-.blog1 h3{
+.blog1 h3 {
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
@@ -500,7 +536,7 @@ button {
 }
 
 .blog1 li {
-  list-style-type:disc;
+  list-style-type: disc;
   color: #fff;
   line-height: 25px;
   font-size: 20px;
@@ -513,24 +549,24 @@ button {
   font-size: 20px;
 }
 
-.blog1 div{
+.blog1 div {
   width: 70%;
   margin: 0 auto;
 }
 
-.blog1 div div{
+.blog1 div div {
   color: #fff;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.blog1 div div span{
+.blog1 div div span {
   margin: 0 10px;
 }
 .blog1 .img-centro {
   margin: 0 auto;
   width: 50%;
-  margin-bottom: 5%
+  margin-bottom: 5%;
 }
 
 /* orçamento */
@@ -587,7 +623,7 @@ button {
 }
 
 /* Oculta a seta original do elemento */
- details > summary {
+details > summary {
   list-style: none;
 }
 
@@ -628,7 +664,6 @@ summary::-webkit-details-marker {
 
 /* Coloca a uma nova seta na esquerda por causa do pseudo-elemento ::before */
 
-
 summary::before {
   content: "+";
   color: #f2f2f2;
@@ -653,12 +688,11 @@ details[open] summary:before {
   margin-right: 10px;
 }
 
-.sanfona summary{
+.sanfona summary {
   margin-bottom: 10px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
-
 
 .accordion {
   background: #fff;
@@ -673,10 +707,10 @@ details[open] summary:before {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: #ccc;
 }
-
 
 .panel {
   padding: 0 18px;
@@ -684,16 +718,16 @@ details[open] summary:before {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
- }
+}
 
- .panel p{
+.panel p {
   color: #152039;
   line-height: 25px;
   padding: 10px;
- }
+}
 
- .accordion::before {
-  content: '+'; /* Unicode character for "plus" sign (+) */
+.accordion::before {
+  content: "+"; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #fff;
   display: inline-block;
@@ -704,7 +738,7 @@ details[open] summary:before {
   background-color: #ff8900;
   border-radius: 50%;
   transition: transform 0.3s;
- }
+}
 
 .active::before {
   content: "+"; /* Unicode character for "minus" sign (-) */
@@ -1248,13 +1282,13 @@ input[type="radio"]:checked + label {
     width: 55%;
   }
 
-  .blog div div h3{
+  .blog div div h3 {
     width: 65%;
   }
 
   /* pagina blog */
 
-  .blog1 .img-centro{
+  .blog1 .img-centro {
     width: 75%;
   }
 
@@ -1313,7 +1347,7 @@ input[type="radio"]:checked + label {
     width: 95px;
     right: 5px;
     bottom: 15px;
-  } 
+  }
 
   /* formulário */
   form {
@@ -1594,7 +1628,7 @@ input[type="radio"]:checked + label {
     flex-direction: column;
     align-items: center;
   }
-  .blog div div h3{
+  .blog div div h3 {
     width: 50%;
   }
 
@@ -1603,45 +1637,44 @@ input[type="radio"]:checked + label {
     width: 85%;
   }
 
-  .blog div div h4{
+  .blog div div h4 {
     width: 85%;
   }
 
   /* página blog */
-.blog1 div div{
-  font-size: 12px;
-}
+  .blog1 div div {
+    font-size: 12px;
+  }
 
-.blog1 h2{
-  font-size: 1.5em;
-  line-height: 30px;
-}
+  .blog1 h2 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
 
-.blog1 h3{
-  font-size: 17px;
-}
+  .blog1 h3 {
+    font-size: 17px;
+  }
 
-.blog1 h4{
-  font-size: 1.3em;
-}
+  .blog1 h4 {
+    font-size: 1.3em;
+  }
 
-.blog1 p{
-  font-size: 15px;
-  line-height: 23px;
-}
+  .blog1 p {
+    font-size: 15px;
+    line-height: 23px;
+  }
 
-.blog1 li span{
-  font-size: 16px;
-}
+  .blog1 li span {
+    font-size: 16px;
+  }
 
-.blog1 li{
-  font-size: 16px;
-}
+  .blog1 li {
+    font-size: 16px;
+  }
 
-.blog1 .img-centro{
-  width: 100%;
-}
-
+  .blog1 .img-centro {
+    width: 100%;
+  }
 
   /* Orçamento */
 
@@ -1716,7 +1749,7 @@ input[type="radio"]:checked + label {
 
   /* Direitos */
 
-   .cnt-direitos{
+  .cnt-direitos {
     padding: 10px;
   }
 
@@ -1732,7 +1765,7 @@ input[type="radio"]:checked + label {
   #back-to-top {
     width: 85px;
     bottom: 25px;
-  } 
+  }
   /* Formulário */
 
   form {
