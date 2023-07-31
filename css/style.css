@@ -587,7 +587,7 @@ button {
 }
 
 /* Oculta a seta original do elemento */
-details > summary {
+ details > summary {
   list-style: none;
 }
 
@@ -606,6 +606,13 @@ summary::-webkit-details-marker {
   margin-top: 10px;
 }
 
+.sanfona summary {
+  color: #1b50d8;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*
 .sanfona details p {
   font-size: 18px;
   font-weight: 400;
@@ -617,14 +624,12 @@ summary::-webkit-details-marker {
   margin-left: 30px;
 }
 
-.sanfona summary {
-  color: #1b50d8;
-  font-size: 20px;
-  cursor: pointer;
-}
+
 
 /* Coloca a uma nova seta na esquerda por causa do pseudo-elemento ::before */
-.sanfona summary::before {
+
+
+summary::before {
   content: "+";
   color: #f2f2f2;
   background: #ff8900;
@@ -637,13 +642,71 @@ summary::-webkit-details-marker {
 }
 
 /* modifica a seta quando clicar */
-.sanfona details[open] summary:before {
+details[open] summary:before {
   content: "-";
 }
 
 .sanfona summary i {
   color: #ff8900;
   margin-right: 10px;
+}
+
+.sanfona summary{
+  margin-bottom: 10px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+
+.accordion {
+  background: #fff;
+  color: #1b50d8;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+ }
+
+ .panel p{
+  color: #152039;
+  line-height: 25px;
+  padding: 10px;
+ }
+
+ .accordion::before {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  background-color: #ff8900;
+  border-radius: 50%;
+  transition: transform 0.3s;
+ }
+
+.active::before {
+  content: "+"; /* Unicode character for "minus" sign (-) */
+  transform: rotate(45deg);
 }
 
 /* Rodapé */
