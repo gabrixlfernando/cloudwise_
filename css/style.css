@@ -122,7 +122,7 @@ button {
 
 /* Banner */
 
-.banner img {
+/* .banner img {
   width: 100%;
 }
 
@@ -157,9 +157,9 @@ button {
 
 .banner .slick-dots li {
   margin: 0 15px;
-}
+} */
 
-/* .banner{
+ .banner{
   background: url(../img/estrelas.svg) repeat;
   background-size: contain;
   display: flex;
@@ -192,7 +192,7 @@ button {
   font-family: 'Varela Round', sans-serif;
   margin-top: 20px;
 }
- */
+
 
 /* Sobre */
 
