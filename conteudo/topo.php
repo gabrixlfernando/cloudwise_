@@ -5,15 +5,23 @@
        <button class="abrir-menu"></button>
       <nav class="menu">
         <button class="fechar-menu"></button>
+
+        <?php
+      $url = $_SERVER['REQUEST_URI'];
+      $urlBase = basename($url);
+      // echo $urlBase;
+
+
+      ?>
         <ul>
           <li>
-            <a href="sobre.php" ><i class="fa-solid fa-file-code"></i>Quem Somos</a>
+            <a href="sobre.php" <?php if ($urlBase == 'sobre.php') echo 'class="ativo"' ?>><i class="fa-solid fa-file-code"></i>Quem Somos</a>
           </li>
           <li>
-            <a href="contato.php"><i class="fa-regular fa-address-card"></i>Contato</a>
+            <a href="contato.php" <?php if ($urlBase == 'contato.php') echo 'class="ativo"' ?>><i class="fa-regular fa-address-card"></i>Contato</a>
           </li>
           <li>
-            <a href="servicos.php" ><i class="fa-solid fa-wrench"></i>Serviços</a>
+            <a href="servicos.php" <?php if ($urlBase == 'servicos.php') echo 'class="ativo"' ?>><i class="fa-solid fa-wrench"></i>Serviços</a>
           </li>
         </ul>
 
