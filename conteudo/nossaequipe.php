@@ -46,8 +46,8 @@
                 <h4>Desenvolvedor</h4>
                 <p>Um desenvolvedor Front-end com uma mente criativa voltada ao design . Possui conhecimentos em HTML, CSS e Design. Com um olhar apurado para o design facilitando a criação de websites visivelmente agradáveis.</p>
                 <ul>
-                    <li><a href="" target="_blank"><img src="img/logo (3).png" alt=""></a></li>
-                    <li><a href="" target="_blank"><img src="img/logo03.svg" alt=""></a></li>
+                    <li><a href="https://cloudwise.smpsistema.com.br/_pedro_santos/Cloudwise/" target="_blank"><img src="img/logo (3).png" alt=""></a></li>
+                    <li><a href="https://cloudwise.smpsistema.com.br/_pedro_santos/Agenciatipi01/" target="_blank"><img src="img/logo03.svg" alt=""></a></li>
                 </ul>
             </div>
         </div>

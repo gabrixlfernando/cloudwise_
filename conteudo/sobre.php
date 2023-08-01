@@ -21,7 +21,7 @@
               responsivos e de fácil navegação.
             </p>
 
-            <a href="servicos.php">Nossos Projetos <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="sobre.php">Quem Somos<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
 
           <div data-aos="zoom-in" data-aos-duration="1500" class="sobreimg">
