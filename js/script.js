@@ -173,3 +173,31 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+// digitando banner
+var typed = new Typed('#element', {
+  strings: [
+    "Sua presença online voa mais alto!", 
+    "Transformando ideias em resultados reais.",
+    "Criamos soluções para seu negócio.",
+  ],
+  backSpeed: 50,
+  backDelay: 300,
+  typeSpeed: 80,
+  loop: true,
+});
+
+// remover seta banner
+document.addEventListener("DOMContentLoaded", function() {
+  const arrowDown = document.querySelector(".banner-seta");
+  window.addEventListener("scroll", function() {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition > 100) {
+      arrowDown.style.opacity = "0";
+    } else {
+      arrowDown.style.opacity = "1";
+    }
+  });
+});
+

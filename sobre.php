@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
@@ -132,11 +133,12 @@
     </main>
 
     <!-- Footer -->
-    <button id="back-to-top" title="Voltar ao topo"><img src="img/logo (6).png" alt=""></button>
+    <button id="back-to-top" title="Voltar ao topo"><img src="img/rkt.svg" alt=""></button>
     <?php require_once('conteudo/rodape.php'); ?>
 
     <!-- JavaScript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script type="text/javascript" src="js/slick.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
