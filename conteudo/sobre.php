@@ -25,11 +25,12 @@
           </div>
 
           <div data-aos="zoom-in" data-aos-duration="1500" class="sobreimg">
-            <img src="img/imgSobre.png" alt="" />
-            <img src="img/imgSobre2.png" alt="" />
-            <img src="img/imgSobre3.png" alt="" />
-            <img src="img/imgSobre4.png" alt="" />
+            <img src="img/<?php echo $linha['fotoSobre1']?>" alt="<?php echo $linha['descricaoFotoSobre']?>" />
+            <img src="img/<?php echo $linha['fotoSobre2']?>" alt="<?php echo $linha['descricaoFotoSobre']?>" />
+            <img src="img/<?php echo $linha['fotoSobre3']?>" alt="<?php echo $linha['descricaoFotoSobre']?>" />
+            <img src="img/<?php echo $linha['fotoSobre4']?>" alt="<?php echo $linha['descricaoFotoSobre']?>" />
           </div>
         </div>
 
       </section>
+  

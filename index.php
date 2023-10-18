@@ -1,3 +1,10 @@
+<?php 
+require_once('admin/class/servico.php');
+
+$listarServico = new ServicoClass();
+$listar = $listarServico->Listar();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
