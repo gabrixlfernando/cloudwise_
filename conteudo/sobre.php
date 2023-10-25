@@ -21,16 +21,15 @@
          <?php echo $linha['descricaoSobre2'] ?>
        </p>
 
-       <a href="<?php echo $linha['urlSobre'] ?>">Quem Somos<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-     </div>
-     
-       <div data-aos="zoom-in" data-aos-duration="1500" class="sobreimg"><D/div>
-           <img src="img/<?php echo $linha['fotoSobre1'] ?>" alt="<?php echo $linha['descricaoFotoSobre1'] ?>" />
-           <img src="img/<?php echo $linha['fotoSobre2'] ?>" alt="<?php echo $linha['descricaoFotoSobre2'] ?>=" />
-           <img src="img/<?php echo $linha['fotoSobre3'] ?>" alt="<?php echo $linha['descricaoFotoSobre3'] ?>=" />
-           <img src="img/<?php echo $linha['fotoSobre4'] ?>" alt="<?php echo $linha['descricaoFotoSobre4'] ?>=" />
-       </div>
-     <?php endforeach ?>
-   </div>
+            <a href="sobre.php">Quem Somos<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
 
- </section>
+          <div data-aos="zoom-in" data-aos-duration="1500" class="sobreimg">
+            <img src="img/imgSobre.png" alt="" />
+            <img src="img/imgSobre2.png" alt="" />
+            <img src="img/imgSobre3.png" alt="" />
+            <img src="img/imgSobre4.png" alt="" />
+          </div>
+        </div>
+
+      </section>

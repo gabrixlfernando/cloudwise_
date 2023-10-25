@@ -1,12 +1,5 @@
-<?php
-require_once('admin/class/servico.php');
-
-$listarServico = new ServicoClass();
-$listar = $listarServico->Listar();
-?>
-
-<section data-aos="fade-up" data-aos-duration="3000" class="cnt-servicos">
-
+<section data-aos="fade-up"
+      data-aos-duration="3000" class="cnt-servicos">
 
   <div class=" servicos site">
     <h2><i class="fa-solid fa-wrench"></i>Serviços que podem te ajudar</h2>
