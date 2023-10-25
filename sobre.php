@@ -1,3 +1,11 @@
+<?php 
+require_once('admin/class/sobre.php');
+
+//sobre
+$listarSobre = new SobreClass();
+$listar = $listarSobre->Listar();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -68,17 +76,17 @@
                     <ul id="missao">
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Sucesso dos Clientes</h3>
-                            <p>Trabalhamos em estreita colaboração com cada cliente para entender suas necessidades, objetivos e desafios específicos, desenvolvendo soluções personalizadas que atendam às suas demandas e alavanquem seu crescimento. </p>
+                            <p><?php echo $linha['missaoSobre1'] ?> </p>
                             </i>
                         </li>
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Impacto Positivo</h3>
-                            <p>Buscamos criar um impacto positivo nas empresas e na comunidade em que atuamos. Ao fornecer soluções de qualidade e impulsionar o crescimento de nossos clientes, contribuímos para o fortalecimento dos negócios e para o desenvolvimento econômico. </p>
+                            <p><?php echo $linha['missaoSobre2'] ?> </p>
                             </i>
                         </li>
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Comunicação e Tecnologia</h3>
-                            <p>Acreditamos que a comunicação eficaz e o uso adequado da tecnologia são fundamentais para o sucesso dos negócios no mundo digital em constante evolução. </p>
+                            <p><?php echo $linha['missaoSobre3'] ?> </p>
                             </i>
                         </li>
                     </ul>
@@ -87,17 +95,17 @@
                     <ul id="visao">
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Parceria de Longo Prazo</h3>
-                            <p>Nossa visão é estabelecer parcerias sólidas e duradouras com nossos clientes, sendo reconhecidos como um parceiro estratégico e confiável em suas jornadas de negócios. </p>
+                            <p><?php echo $linha['visaoSobre1'] ?> </p>
                             </i>
                         </li>
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Excelência em Serviços</h3>
-                            <p>Buscamos ser reconhecidos pela qualidade de nossos serviços, oferecendo soluções de comunicação e tecnologia que atendam e superem as expectativas de nossos clientes. </p>
+                            <p><?php echo $linha['visaoSobre2'] ?> </p>
                             </i>
                         </li>
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Crescimento Global</h3>
-                            <p>Expandir nossa presença e atuação globalmente, alcançando novos mercados e fortalecendo nossa marca em diferentes regiões do mundo. </p>
+                            <p><?php echo $linha['visaoSobre3'] ?> </p>
                             </i>
                         </li>
                     </ul>
@@ -106,17 +114,17 @@
                     <ul id="valores">
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Ética</h3>
-                            <p>Nós trabalhamos com integridade, respeito e responsabilidade. Nós nos esforçamos para fazer a coisa certa para nossos clientes, colaboradores e comunidade. </p>
+                            <p><?php echo $linha['valoresSobre1'] ?> </p>
                             </i>
                         </li>
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Qualidade e Dedicação</h3>
-                            <p>Comprometemo-nos com a qualidade em todas as etapas do nosso trabalho, com dedicação e atenção aos detalhes para fornecer resultados excepcionais. </p>
+                            <p><?php echo $linha['valoresSobre2'] ?> </p>
                             </i>
                         </li>
                         <li>
                             <h3><i class="fa-regular fa-circle-check"></i> Trabalho em equipe</h3>
-                            <p>Nós trabalhamos em estreita colaboração com nossos clientes e entre nós, para garantir que nossos clientes recebam as soluções completas e integradas que precisam para ter sucesso em seus negócios. </p>
+                            <p><?php echo $linha['valoresSobre3'] ?> </p>
                             </i>
                         </li>
                     </ul>
