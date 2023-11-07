@@ -1,3 +1,16 @@
+<?php 
+require_once('admin/class/servico.php');
+require_once('admin/class/sobre.php');
+
+//servico
+$listarServico = new ServicoClass();
+$listar = $listarServico->Listar();
+
+//sobre
+$listarSobre = new SobreClass();
+$listar = $listarSobre->Listar();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
